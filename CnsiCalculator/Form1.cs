@@ -181,5 +181,17 @@ namespace CnsiCalculator
                 Console.WriteLine(m_exceptionClassName + MethodBase.GetCurrentMethod().Name + _ex);
             }
         }
+
+        private void btn_deleteInputNumber_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txt_numberInputView.Text= txt_numberInputView.Text.Substring(0, txt_numberInputView.Text.Length - 1);
+            }
+            catch (Exception _ex)
+            {
+                Console.WriteLine(m_exceptionClassName + MethodBase.GetCurrentMethod().Name + _ex);
+            }
+        }
     }
 }

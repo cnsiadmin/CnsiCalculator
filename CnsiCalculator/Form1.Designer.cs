@@ -241,6 +241,7 @@
             this.btn_deleteInputNumber.TabIndex = 18;
             this.btn_deleteInputNumber.Text = "del";
             this.btn_deleteInputNumber.UseVisualStyleBackColor = true;
+            this.btn_deleteInputNumber.Click += new System.EventHandler(this.btn_deleteInputNumber_Click);
             // 
             // btn_resultMemorySave
             // 
