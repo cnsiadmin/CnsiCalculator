@@ -53,12 +53,14 @@ namespace StackCalculate
                             break;
                         case "*":
                         case "/":
-                            while(pre_fix.Peek() == "*" || pre_fix.Peek() == "/")
-                            {
-                                currentString = pre_fix.Pop();
-                                if (currentString != "")
-                                    _exp += currentString + "~";
-                            }
+                            
+                                while (pre_fix.Count > 0 && (pre_fix.Peek() == "*" || pre_fix.Peek() == "/"))
+                                {
+                                    currentString = pre_fix.Pop();
+                                    if (currentString != "")
+                                        _exp += currentString + "~";
+                                }
+                            
                             pre_fix.Push(expressionArray[index]);
                             break;
                         case "+":

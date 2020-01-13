@@ -3,3 +3,4 @@ CnsiCalculator.exe
 CnsiCalculator.exe.config
 StackCalculate.dll
 */obj/
+.vs/
