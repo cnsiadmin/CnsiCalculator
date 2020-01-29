@@ -66,7 +66,7 @@ namespace CnsiCalculator
                             txt_numberInputView.Text += 2;
                         break;
                     case "btn_numberInput3":
-                        if (getLastChar != ')')
+                        if (getLastChar != ')')//qqr798
                             txt_numberInputView.Text += 3;
                         break;
                     case "btn_numberInput4":
@@ -192,6 +192,11 @@ namespace CnsiCalculator
             {
                 Console.WriteLine(m_exceptionClassName + MethodBase.GetCurrentMethod().Name + _ex);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("FUCK");
         }
     }
 }
