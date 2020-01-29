@@ -175,6 +175,8 @@ namespace CnsiCalculator
             {
                 CCalculate a = new CCalculate();
                 a.convertPrefix(txt_numberInputView.Text);
+
+                Console.WriteLine("★");
             }
             catch (Exception _ex)
             {
