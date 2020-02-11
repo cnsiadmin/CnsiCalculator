@@ -6,3 +6,4 @@ StackCalculate.dll
 .vs/
 /vs
 *.exe
+*.obj
