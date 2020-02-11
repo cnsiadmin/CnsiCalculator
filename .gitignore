@@ -5,3 +5,4 @@ StackCalculate.dll
 */obj/
 .vs/
 /vs
+*.exe
